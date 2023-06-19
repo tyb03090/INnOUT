@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@+id/reserved_info_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Reserved Locker"
+        android:textSize="24sp"/>
+
+    <TextView
+        android:id="@+id/reserved_locker_textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="None"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Reserved Time"
+        android:textSize="24sp"/>
+
+    <TextView
+        android:id="@+id/reserved_time_textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="None"/>
+</LinearLayout>

@@ -1,0 +1,57 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/course_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="강의명:" />
+
+    <EditText
+        android:id="@+id/course_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:hint="강의명을 입력하세요." />
+
+    <TextView
+        android:id="@+id/professor_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="교수명:" />
+
+    <EditText
+        android:id="@+id/professor_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:hint="교수명을 입력하세요." />
+
+    <TextView
+        android:id="@+id/day_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="요일:" />
+
+    <Spinner
+        android:id="@+id/day_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/time_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="시간:" />
+
+    <Spinner
+        android:id="@+id/time_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+
+</LinearLayout>

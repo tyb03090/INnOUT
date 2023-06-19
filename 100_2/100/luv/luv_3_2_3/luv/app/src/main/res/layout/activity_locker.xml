@@ -1,0 +1,70 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".LockerActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1813 사물함 예약 목록" />
+
+    <LinearLayout
+        android:id="@+id/linear_layout_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"/>
+
+    <GridLayout
+        android:id="@+id/grid_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:columnCount="10"
+        android:rowCount="10">
+
+        <ImageView
+            android:id="@+id/locker11"
+            android:layout_width="136dp"
+            android:layout_height="153dp"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:src="@drawable/locker1" />
+
+        <ImageView
+            android:id="@+id/locker12"
+            android:layout_width="136dp"
+            android:layout_height="153dp"
+            android:layout_row="0"
+            android:layout_column="1"
+            android:src="@drawable/locker2" />
+
+        <ImageView
+            android:id="@+id/locker13"
+            android:layout_width="136dp"
+            android:layout_height="153dp"
+            android:layout_row="3"
+            android:layout_column="0"
+            android:src="@drawable/locker3" />
+
+        <ImageView
+            android:id="@+id/locker14"
+            android:layout_width="133dp"
+            android:layout_height="153dp"
+            android:layout_row="4"
+            android:layout_column="0"
+            android:src="@drawable/locker4" />
+
+        <ImageView
+            android:id="@+id/locker15"
+            android:layout_width="136dp"
+            android:layout_height="153dp"
+            android:layout_row="4"
+            android:layout_column="1"
+            android:src="@drawable/locker5" />
+
+    </GridLayout>
+
+</LinearLayout>

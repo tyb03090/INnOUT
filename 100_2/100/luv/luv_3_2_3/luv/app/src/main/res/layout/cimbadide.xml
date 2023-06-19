@@ -1,0 +1,162 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="임베디드 사물함 예약 목록"/>
+    <LinearLayout
+        android:id="@+id/linear_layout_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="70dp"
+            android:layout_height="40dp"
+            android:id="@+id/button1810"
+            android:text="1814"/>
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:id="@+id/button1811"
+            android:text="1813"
+            android:layout_marginLeft="80dp"
+            />
+
+        <Button
+            android:id="@+id/button1812"
+            android:layout_width="70dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="90dp"
+            android:text="1817" />
+    </LinearLayout>
+
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:rowCount="10"
+        android:id="@+id/gridviewcimbadide"
+        android:columnCount="10">
+
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:src="@drawable/locker1" />
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_row="0"
+            android:layout_column="1"
+            android:src="@drawable/locker1" />
+
+        <ImageView
+            android:layout_width="52dp"
+            android:layout_height="50dp"
+            android:layout_row="0"
+            android:layout_column="2"
+            android:src="@drawable/locker1" />
+        <ImageView
+            android:layout_width="52dp"
+            android:layout_height="50dp"
+            android:layout_row="0"
+            android:layout_column="3"
+            android:src="@drawable/locker1" />
+        <ImageView
+            android:src="@drawable/locker1"
+            android:layout_width="52dp"
+            android:layout_height="50dp"
+            android:layout_row="0"
+            android:layout_column="4"/>
+
+        <ImageView
+            android:layout_width="52dp"
+            android:layout_height="50dp"
+            android:layout_row="0"
+            android:layout_column="5"
+            android:src="@drawable/locker1" />
+        <ImageView
+            android:layout_width="52dp"
+            android:layout_height="50dp"
+            android:layout_row="0"
+            android:layout_column="6"
+            android:src="@drawable/locker1" />
+
+        <ImageView
+            android:layout_width="52dp"
+            android:layout_height="50dp"
+            android:layout_row="0"
+            android:layout_column="7"
+            android:src="@drawable/locker1" />
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_row="1"
+            android:layout_column="0"
+            android:src="@drawable/locker1" />
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_row="1"
+            android:layout_column="1"
+            android:src="@drawable/locker1" />
+
+        <ImageView
+            android:layout_width="52dp"
+            android:layout_height="50dp"
+            android:layout_row="1"
+            android:layout_column="2"
+            android:src="@drawable/locker1" />
+        <ImageView
+            android:layout_width="52dp"
+            android:layout_height="50dp"
+            android:layout_row="1"
+            android:layout_column="3"
+            android:src="@drawable/locker1" />
+        <ImageView
+            android:src="@drawable/locker1"
+            android:layout_width="52dp"
+            android:layout_height="50dp"
+            android:layout_row="1"
+            android:layout_column="4"/>
+
+        <ImageView
+            android:layout_width="52dp"
+            android:layout_height="50dp"
+            android:layout_row="1"
+            android:layout_column="5"
+            android:src="@drawable/locker1" />
+        <ImageView
+            android:layout_width="52dp"
+            android:layout_height="50dp"
+            android:layout_row="1"
+            android:layout_column="6"
+            android:src="@drawable/locker1" />
+
+        <ImageView
+            android:layout_width="52dp"
+            android:layout_height="50dp"
+            android:layout_row="1"
+            android:layout_column="7"
+            android:src="@drawable/locker1" />
+        <!-- 나머지 셀에 ImageView 추가 -->
+
+    </GridLayout>
+</LinearLayout>
+
+
+    <!-- 나머지 셀에 ImageView 추가 -->
+
+
+

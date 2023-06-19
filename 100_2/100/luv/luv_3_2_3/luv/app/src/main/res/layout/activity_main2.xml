@@ -1,0 +1,131 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/myLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:title="8층 컴퓨터공학과"
+            app:titleTextColor="@android:color/white" />
+
+
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/embedded"
+            android:layout_width="match_parent"
+            android:layout_height="170dp"
+            android:background="@drawable/box1"
+            android:text="임베디드"
+           />
+
+        <ImageView
+            android:id="@+id/profKim"
+            android:layout_width="match_parent"
+            android:layout_height="170dp"
+            android:background="@drawable/box2"
+            />
+
+        <ImageView
+            android:id="@+id/room1814"
+            android:layout_width="110dp"
+            android:layout_height="170dp"
+            android:background="@drawable/box8" />
+
+        <ImageView
+            android:id="@+id/room1813"
+            android:layout_width="match_parent"
+            android:layout_height="170dp"
+            android:background="@drawable/box9" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="328dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/room1817"
+            android:layout_width="110dp"
+            android:layout_height="90dp"
+            android:layout_marginLeft="190dp"
+            android:background="@drawable/box10" />
+
+
+        <ImageView
+            android:id="@+id/room1818"
+            android:layout_width="110dp"
+            android:layout_height="90dp"
+            android:layout_marginLeft="190dp"
+            android:background="@drawable/box11" />
+
+        <ImageView
+            android:id="@+id/profJong"
+            android:layout_width="110dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="190dp"
+            android:background="@drawable/box4"
+
+            />
+
+        <ImageView
+            android:id="@+id/profMin"
+            android:layout_width="110dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="190dp"
+            android:background="@drawable/box3" />
+
+        <ImageView
+            android:id="@+id/profLee"
+            android:layout_width="110dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="190dp"
+            android:background="@drawable/box6" />
+
+        <ImageView
+            android:id="@+id/profNam"
+            android:layout_width="110dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="190dp"
+            android:background="@drawable/box5" />
+
+        <ImageView
+            android:id="@+id/profYang"
+            android:layout_width="110dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="190dp"
+            android:background="@drawable/box7" />
+
+        <ImageView
+            android:id="@+id/room1824"
+            android:layout_width="110dp"
+            android:layout_height="90dp"
+            android:layout_marginLeft="190dp"
+            android:background="@drawable/box12" />
+
+
+    </LinearLayout>
+</LinearLayout>
+</LinearLayout>

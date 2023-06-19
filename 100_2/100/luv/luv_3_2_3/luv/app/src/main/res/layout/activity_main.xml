@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="3"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/in">
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="365dp"
+
+                android:layout_height="198dp"
+                android:layout_marginTop="100dp"
+                android:layout_marginRight="0dp"
+                android:layout_weight="1"
+                tools:srcCompat="@tools:sample/avatars" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:background="#efefef">
+
+        <RelativeLayout
+            android:id="@+id/firstRela"
+            android:layout_width="320dp"
+            android:layout_height="60dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/select_box">
+
+            <ImageButton
+                android:id="@+id/img_reserve"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="20dp"
+                android:background="@drawable/star1" />
+
+            <LinearLayout
+                android:id="@+id/storeLinear"
+                android:layout_width="140dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="20dp"
+                android:layout_toEndOf="@+id/img_reserve"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="170dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:fontFamily="@font/nanumsquareb"
+                    android:text="사물함 예약하기"
+                    android:textColor="#000000"
+                    android:textSize="20sp" />
+
+
+            </LinearLayout>
+
+            <ImageButton
+                android:id="@+id/btn_firstarrow"
+                android:layout_width="50dp"
+                android:layout_height="20dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="40dp"
+                android:layout_toEndOf="@+id/storeLinear"
+                android:background="@drawable/ic_arrow" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/thirdRela"
+            android:layout_width="320dp"
+            android:layout_height="60dp"
+            android:layout_below="@+id/firstRela"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/select_box">
+
+            <ImageButton
+                android:id="@+id/img_myinfo"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="20dp"
+                android:background="@drawable/star3" />
+
+            <LinearLayout
+                android:id="@+id/infoLinear"
+                android:layout_width="77dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="20dp"
+                android:layout_toEndOf="@+id/img_myinfo"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:fontFamily="@font/nanumsquareb"
+                    android:text="설정"
+                    android:textColor="#000000"
+                    android:textSize="20sp" />
+
+
+            </LinearLayout>
+
+            <ImageButton
+                android:id="@+id/btn_thirdarrow"
+                android:layout_width="50dp"
+                android:layout_height="20dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="100dp"
+                android:layout_toEndOf="@+id/infoLinear"
+                android:background="@drawable/ic_arrow" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/forthRela"
+            android:layout_width="320dp"
+            android:layout_height="60dp"
+            android:layout_below="@+id/thirdRela"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/select_box">
+
+            <ImageButton
+                android:id="@+id/img_notice"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="20dp"
+                android:background="@drawable/star4" />
+
+            <LinearLayout
+                android:id="@+id/noticeLinear"
+                android:layout_width="77dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="20dp"
+                android:layout_toEndOf="@+id/img_notice"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:fontFamily="@font/nanumsquareb"
+                    android:text="8층 약도"
+                    android:textColor="#000000"
+                    android:textSize="20sp" />
+
+
+            </LinearLayout>
+
+            <ImageButton
+                android:id="@+id/btn_fourtharrow"
+                android:layout_width="50dp"
+                android:layout_height="20dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="100dp"
+                android:layout_toEndOf="@+id/noticeLinear"
+                android:background="@drawable/ic_arrow" />
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/fiveRela1"
+            android:layout_width="320dp"
+            android:layout_height="60dp"
+            android:layout_below="@+id/forthRela"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/select_box">
+
+            <ImageButton
+                android:id="@+id/img_notice2"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="20dp"
+                android:background="@drawable/star7" />
+
+            <LinearLayout
+                android:id="@+id/noticeLinear2"
+                android:layout_width="120dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="20dp"
+                android:layout_toEndOf="@+id/img_notice2"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:fontFamily="@font/nanumsquareb"
+                    android:text="나의 예약내역 "
+                    android:textColor="#000000"
+                    android:textSize="20sp" />
+
+
+            </LinearLayout>
+
+            <ImageButton
+                android:id="@+id/btn_fivearrow2"
+                android:layout_width="50dp"
+                android:layout_height="20dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="60dp"
+                android:layout_toEndOf="@+id/noticeLinear2"
+                android:background="@drawable/ic_arrow" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/fiveRela"
+            android:layout_width="320dp"
+            android:layout_height="60dp"
+            android:layout_below="@+id/fiveRela1"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/select_box">
+
+            <ImageButton
+                android:id="@+id/img_notice1"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="20dp"
+                android:background="@drawable/star5" />
+
+            <LinearLayout
+                android:id="@+id/noticeLinear1"
+                android:layout_width="77dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="20dp"
+                android:layout_toEndOf="@+id/img_notice1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:fontFamily="@font/nanumsquareb"
+                    android:text="공지사항"
+                    android:textColor="#000000"
+                    android:textSize="20sp" />
+
+
+            </LinearLayout>
+
+            <ImageButton
+                android:id="@+id/btn_fivearrow"
+                android:layout_width="50dp"
+                android:layout_height="20dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="100dp"
+                android:layout_toEndOf="@+id/noticeLinear1"
+                android:background="@drawable/ic_arrow" />
+
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+</LinearLayout>

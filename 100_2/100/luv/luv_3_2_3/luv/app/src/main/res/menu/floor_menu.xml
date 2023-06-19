@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/floor1"
+        android:title="1층" />
+    <item
+        android:id="@+id/floor2"
+        android:title="2층" />
+    <item
+        android:id="@+id/floor3"
+        android:title="3층" />
+    <!-- 추가적인 층 메뉴 아이템 -->
+</menu>

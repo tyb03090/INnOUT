@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<font-family xmlns:android="http://schemas.android.com/apk/res/android">
+        <font android:fontStyle="normal"
+            android:fontWeight="400"
+            android:font="@font/gmarkbo"/>
+        <font android:fontStyle="normal"
+            android:fontWeight="400"
+            android:font="@font/gmarkli"/>
+        <font android:fontStyle="normal"
+            android:fontWeight="400"
+            android:font="@font/gmarkme"/>
+        <font android:fontStyle="normal"
+            android:fontWeight="400"
+            android:font="@font/nanumsquareb"/>
+        <font android:fontStyle="normal"
+            android:fontWeight="400"
+            android:font="@font/nanumsquarel"/>
+</font-family>
+
